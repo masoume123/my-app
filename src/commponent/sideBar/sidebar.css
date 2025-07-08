@@ -1,0 +1,41 @@
+.sideBar{
+    flex: 1;
+    height: calc(100vh - 50px);
+    background-color: rgb(251, 251, 255);
+    position: sticky;
+    top: 50px;
+    font-family: Arial;
+    margin-top: 20px;
+
+}
+.sideBarWrapper{
+    color: #555;
+    padding-left: 10px;
+}
+
+.sideBarMenu{
+    margin-bottom: 10px;
+}
+.sideBarTitle{
+    color:rgb(187, 187, 190) ;
+    font-size: 13px;
+}
+.sidebarDashbourd{
+    list-style: none;
+    padding: 5px;
+}
+.sidebarDashLink{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+cursor: pointer;
+border-radius: 10px;
+}
+.sidebarDashLink .active, .sidebarDashLink:hover{
+    background-color: rgb(240, 240, 255) ;
+}
+.dashIcone{
+margin-right: 10px;
+font-size: 20px;
+
+}

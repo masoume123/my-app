@@ -1,0 +1,13 @@
+.home{
+    flex: 4;
+}
+.homeWidget{
+    display: flex;
+    flex-direction: row;
+}
+.widgetsm{
+    flex-grow: 3;
+}
+.widgetlg{
+    flex-grow: 1;
+}

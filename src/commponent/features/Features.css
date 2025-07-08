@@ -1,0 +1,46 @@
+.features{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+   
+    width: 100%;
+}
+.featuresItems{
+ padding: 30px;
+ flex: 1;
+ margin: 0px 20px;
+ padding: 30px;
+ border-radius: 10px;
+ cursor: pointer;
+ box-shadow: 0 0 15px -10px rgba(0, 0, 0, 75%);
+}
+.featuresTitle{
+padding-bottom: 15px;
+}
+.featureProfit{
+display: flex;
+align-items: center;
+}
+.featureMoney{
+font-size: 25px;
+font-weight: bold;
+padding-right: 10px;
+}
+.featureIcons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fetureProfitPercend{
+font-size: small;
+color:rgb(63, 63, 63);
+}
+.featureIcon{
+    color: red;
+    padding-left: 6px;
+}
+.fetureDetail{
+margin-top: 10px;
+color: rgb(199, 199, 199);
+font-size: small;
+}
