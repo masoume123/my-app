@@ -205,4 +205,27 @@ let product=[
     }
 
 ]
-export {xAxisData, transaction, newUsers,UserRow, product}
+let saleInMonth=[
+    {
+        
+        "sale":100,
+        "name":"jan",
+    },
+    {
+        
+        "sale":1800,
+        "name":"Feb",
+    },
+    {
+        
+        "sale":1000,
+        "name":"March",
+    },
+    {
+        
+        "sale":500,
+        "name":"July",
+    },
+
+]
+export {xAxisData, transaction, newUsers,UserRow, product, saleInMonth}
