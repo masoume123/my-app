@@ -28,12 +28,42 @@
     align-items: center;
 }
 .infoRightImg{
-width: 160px;
-height: 160px;
+width: 40px;
+height: 40px;
+border-radius: 100%;
 }
 .infoLeft ,.infoRight{
     flex: 1;
+    
 }
 .infoRight{
+box-shadow: 0px 0px 15px -10px rgba(0,0, 0, .75);
+padding: 20px;
+margin:20px;
+}
+.productDiscription{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:80px;
+    margin-top: 3px;
+}
+.infoRightHeader{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
 
+}
+.infoRingtTitle{
+    font-weight: 800;
+}
+.disKey{
+    font-weight: 500;
+    font-size: medium;
+
+}
+.disValue{
+    font-weight: 300;
 }

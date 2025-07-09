@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import { product } from '../../data'
+import { products } from '../../data'
 import { DataGrid } from '@mui/x-data-grid'
 import "../products/products.css"
 import { Link } from 'react-router-dom'
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 
-export default function products() {
-  const [productData,setProductData]=useState(product)
+export default function Products() {
+  const [productData,setProductData]=useState(products)
   const deleteProduct=(productID)=>{
           setProductData(productData.filter(product=>(product.id!=productID)))
   }

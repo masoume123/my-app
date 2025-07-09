@@ -154,7 +154,7 @@ let UserRow=[
 
     },
 ]
-let product=[
+let products=[
     {
         "id":1,
         "product":"airpod",
@@ -165,7 +165,7 @@ let product=[
     },
     {
         "id":2,
-        "product":"airpod",
+        "product":"Airpod",
         "status":"active",
         "stock":128,
         "price":"$120",
@@ -173,7 +173,7 @@ let product=[
     },
     {
         "id":3,
-        "product":"airpod",
+        "product":"Labtop",
         "status":"active",
         "stock":128,
         "price":"$120",
@@ -181,7 +181,7 @@ let product=[
     },
     {
         "id":4,
-        "product":"airpod",
+        "product":"Ipad",
         "status":"active",
         "stock":128,
         "price":"$120",
@@ -189,7 +189,7 @@ let product=[
     },
     {
         "id":5,
-        "product":"airpod",
+        "product":"Macbook",
         "status":"active",
         "stock":128,
         "price":"$120",
@@ -197,7 +197,7 @@ let product=[
     },
     {
         "id":6,
-        "product":"airpod",
+        "product":"Tv",
         "status":"active",
         "stock":128,
         "price":"$120",
@@ -228,4 +228,4 @@ let saleInMonth=[
     },
 
 ]
-export {xAxisData, transaction, newUsers,UserRow, product, saleInMonth}
+export {xAxisData, transaction, newUsers,UserRow, products, saleInMonth}
